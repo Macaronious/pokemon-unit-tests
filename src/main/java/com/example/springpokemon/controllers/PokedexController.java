@@ -12,9 +12,9 @@ import java.util.List;
 public class PokedexController {
     private PokedexService pokeService = new PokedexService();
 
-    @GetMapping("/fire")
+    @GetMapping("/fire") 
     public ModelAndView getAllFire(){
-        //Todo
+
         return null;
     }
 
